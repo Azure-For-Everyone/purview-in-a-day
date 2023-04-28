@@ -40,15 +40,14 @@ Before getting started read below tutorial of how to setup to different services
 
 0. [Create a Microsoft Purview Account](./modules/module01.md)
 1. Register & Scan: [2A. Azure Data Lake Storage Gen2 (Managed Identity)](./modules/module02a.md) | [2B. Azure SQL Database (Azure Key Vault)](./modules/module02b.md)
-2. Collection Hierarchy
-3. Data catalog
-4. [Lineage](./modules/module06.md)
+2. [Glossary](./modules/module04.md)
+3. [Lineage](./modules/module06.md)
 
 ## :books: Challenge 2
 
 0. If not already done, [create a Microsoft Purview Account](./modules/module01.md)
-1. [Glossary](./modules/module04.md)
-2. [Insights](./modules/module07.md)
+1. [Insights](./modules/module07.md)
+2. [Monitor](./modules/module08.md)
 3. [Data Sharing](./modules/module16.md)
 4. [Metamodel](./modules/module17.md)
 
