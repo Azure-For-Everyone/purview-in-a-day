@@ -8,19 +8,19 @@ Microsoft Purview In A Day is a single day event which is all about Data Governa
 
 Microsoft Purview is a unified data governance service that helps you manage and govern your on-premises, multi-cloud and software-as-a-service (SaaS) data. Easily create a holistic, up-to-date map of your data landscape with automated data discovery, sensitive data classification and end-to-end data lineage. Empower data consumers to find valuable, trustworthy data.
 
-## :books: Preface
+## :books: Preface and introduction
 
 To understand the relevance and need of Data Governance, you might need to read below preface, to get better acquainted with the desire and requirements of a business/organisation.
 
 - [Preface: Introduction to Data Governance and Purview](./modules/preface.md)
 
-## Challenge 1
+### Challenge 1
 
 During the first challenge, you'll setup the lab environment in a Azure subscription (see Azure Pass below). We will create the required resources in a `resource group` using a predefined script, and activate the Microsoft Purview service.
 
 Once you're all set, we will create a new collection in Microsoft Purview, and connect to two resources `Microsoft SQL Database` and the `Azure Data Lake`. Once connected, we will start scanning our data sources to extract the technical metadata. We're now able to search, and further document our data model.
 
-## Challenge 2
+### Challenge 2
 
 [Cedric] To be completed with a concrete explanation.
 
