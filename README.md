@@ -36,25 +36,25 @@ To complete this workshow you'll need to have access to an Azure subscription, a
 
 Before getting started make sure to setup the [Lab Environment](./modules/module00.md) and [create you Microsoft Purview Account](./modules/module01.md). This is a prerequisite before working on the challenges!
 
-- [Lab Environment](./modules/module00.md)
-- [Create a Microsoft Purview Account](./modules/module01.md)
+- [Lab Environment](./challenge1/module00.md)
+- [Create a Microsoft Purview Account](./challenge1/module01.md)
 
 Let's go!
 
-1. [Register & Scan: Azure Data Lake Storage Gen2 ](./modules/module02a.md)
-2. [Register & Scan: Azure SQL Database](./modules/module02b.md)
-3. [Search & Browse](./modules/module03.md)
-4. [Glossary](./modules/module04.md)
-5. [Classifications](./modules/module05.md)
-6. [Lineage](./modules/module06.md)
+1. [Register & Scan: Azure Data Lake Storage Gen2 ](./challenge1/module02a.md)
+2. [Register & Scan: Azure SQL Database](./challenge1/module02b.md)
+3. [Search & Browse](./challenge1/module03.md)
+4. [Glossary](./challenge1/module04.md)
+5. [Classifications](./challenge1/module05.md)
+6. [Lineage](./challenge1/module06.md)
 
 ## :books: Challenge 2
 
-7. [Insights](./modules/module07.md)
-8. [Monitor](./modules/module08.md)
-9. [REST API](./modules/module10.md)
-10. [Data Sharing](./modules/module16.md)
-11. [Metamodel](./modules/module17.md)
+7. [Insights](./challenge2/module07.md)
+8. [Monitor](./challenge2/module08.md)
+9. [REST API](./challenge2/module10.md)
+10. [Data Sharing](./challenge2/module16.md)
+11. [Metamodel](./challenge2/module17.md)
 
 <div align="right"><a href="#microsoft-purview-workshop">↥ back to top</a></div>
 

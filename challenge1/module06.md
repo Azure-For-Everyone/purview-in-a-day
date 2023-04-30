@@ -12,23 +12,23 @@ Microsoft Purview also supports the ability to document custom lineage. Custom l
 
 > :bulb: **Did you know?**
 >
-> - **Dataset**: A dataset (structured or unstructured) provided as an input to a process. For example, a SQL Table, Azure blob, and files (such as .csv and .xml), are all considered datasets. In the lineage section of Purview, datasets are represented by **rectangular boxes**.
+> * **Dataset**: A dataset (structured or unstructured) provided as an input to a process. For example, a SQL Table, Azure blob, and files (such as .csv and .xml), are all considered datasets. In the lineage section of Purview, datasets are represented by **rectangular boxes**.
 >
-> - **Process**: An activity or transformation performed on a dataset is called a process. For example, ADF Copy activity, Data Share snapshot and so on. In the lineage section of Purview, processes are represented by **round-edged boxes**.
+> * **Process**: An activity or transformation performed on a dataset is called a process. For example, ADF Copy activity, Data Share snapshot and so on. In the lineage section of Purview, processes are represented by **round-edged boxes**.
 
 ## :thinking: Prerequisites
 
-- An [Azure account](https://azure.microsoft.com/free/) with an active subscription.
-- An Azure Data Lake Storage Gen2 Account (see [module 00](../modules/module00.md)).
-- An Azure Data Factory Account (see [module 00](../modules/module00.md)).
-- A Microsoft Purview account (see [module 01](../modules/module01.md)).
+* An [Azure account](https://azure.microsoft.com/free/) with an active subscription.
+* An Azure Data Lake Storage Gen2 Account (see [module 00](../modules/module00.md)).
+* An Azure Data Factory Account (see [module 00](../modules/module00.md)).
+* A Microsoft Purview account (see [module 01](../modules/module01.md)).
 
 This module steps through what is required for connecting an Azure Data Factory account with a Microsoft Purview account to track data lineage.
 
 ## :dart: Objectives
 
-- Connect an Azure Data Factory account with a Microsoft Purview account.
-- Trigger a Data Factory pipeline to run so that the lineage metadata can be pushed into Purview.
+* Connect an Azure Data Factory account with a Microsoft Purview account.
+* Trigger a Data Factory pipeline to run so that the lineage metadata can be pushed into Purview.
 
 ## Table of Contents
 
@@ -42,29 +42,29 @@ This module steps through what is required for connecting an Azure Data Factory 
 
 1. Open the **Microsoft Purview Governance Portal**, navigate to **Management** > **Data Factory** (under Lineage connections) and click **New**.
 
-   > :warning: To view/add/remove Data Factory connections, you need to be assigned the **Collection admin** role on the root collection.
+    > :warning: To view/add/remove Data Factory connections, you need to be assigned the **Collection admin** role on the root collection.
 
-   ![ALT](../images/module06/06.06-purview-management.png)
+    ![ALT](../images/module06/06.06-purview-management.png)
 
 2. Select your Azure Data Factory account instance from the drop-down menu (e.g. `pvlab-{randomId}-adf`) and click **OK**.
 
-   > :bulb: **Did you know?**
-   >
-   > Microsoft Purview can connect to **multiple** Azure Data Factories but each Azure Data Factory account can only connect to **one** Microsoft Purview account.
+    > :bulb: **Did you know?**
+    >
+    > Microsoft Purview can connect to **multiple** Azure Data Factories but each Azure Data Factory account can only connect to **one** Microsoft Purview account.
 
-   ![ALT](../images/module06/06.07-purview-adf.png)
+    ![ALT](../images/module06/06.07-purview-adf.png)
 
 3. Once finished, you should see the Data Factory in a **connected** state.
 
-   ![ALT](../images/module06/06.08-adf-connected.png)
+    ![ALT](../images/module06/06.08-adf-connected.png)
 
 4. To confirm that Azure Data Factory has been provided the necessary access, navigate to **Data map** > **Collections** > `YOUR_ROOT_COLLECTION` > **Role assignments**, within **Data curators** you should be able to see the Azure Data Factory managed identity.
 
-   > :bulb: **Did you know?**
-   >
-   > When a user creates an Azure Data Factory connection, behind the scenes the Data Factory managed identity is added to the `Data Curator` role. This provides Azure Data Factory the necessary access to push lineage to Microsoft Purview during a pipeline execution. See [supported Azure Data Factory activities](https://docs.microsoft.com/azure/purview/how-to-link-azure-data-factory#supported-azure-data-factory-activities) for more information.
+    > :bulb: **Did you know?**
+    >
+    > When a user creates an Azure Data Factory connection, behind the scenes the Data Factory managed identity is added to the `Data Curator` role. This provides Azure Data Factory the necessary access to push lineage to Microsoft Purview during a pipeline execution. See [supported Azure Data Factory activities](https://docs.microsoft.com/azure/purview/how-to-link-azure-data-factory#supported-azure-data-factory-activities) for more information.
 
-   ![ALT](../images/module06/06.35-adf-identity.png)
+    ![ALT](../images/module06/06.35-adf-identity.png)
 
 <div align="right"><a href="#module-06---lineage">↥ back to top</a></div>
 
@@ -72,38 +72,38 @@ This module steps through what is required for connecting an Azure Data Factory 
 
 1. Within the [Azure Portal](https://portal.azure.com), navigate to your Azure Data Factory resource and click **Open Azure Data Factory Studio**.
 
-   ![ALT](../images/module06/06.09-adf-author.png)
+    ![ALT](../images/module06/06.09-adf-author.png)
 
 2. Click **Ingest**.
-   ![ALT](../images/module06/06.10-adf-copywizard.png)
+    ![ALT](../images/module06/06.10-adf-copywizard.png)
 
 3. Select **Built-in copy task** and then click **Next**.
 
-   ![ALT](../images/module06/06.11-adf-pipelinename.png)
+    ![ALT](../images/module06/06.11-adf-pipelinename.png)
 
 4. Change the **Source type** to `Azure Data Lake Storage Gen2` and then click **New connection**.
 
-   ![ALT](../images/module06/06.12-adf-sourceconn.png)
+    ![ALT](../images/module06/06.12-adf-sourceconn.png)
 
 5. Select your **Azure subscription** and **Storage account** (e.g. `pvlab{randomId}adls`), click **Test connection** and then click **Create**.
 
-   ![ALT](../images/module06/06.14-adf-linkedservice.png)
+    ![ALT](../images/module06/06.14-adf-linkedservice.png)
 
 6. Click **Browse**.
 
-   ![ALT](../images/module06/06.16-adf-browse.png)
+    ![ALT](../images/module06/06.16-adf-browse.png)
 
 7. Navigate to `raw/BingCoronavirusQuerySet/2020/` and click **OK**.
 
-   ![ALT](../images/module06/06.17-adf-choose.png)
+    ![ALT](../images/module06/06.17-adf-choose.png)
 
 8. Confirm your folder path selection and click **Next**.
 
-   ![ALT](../images/module06/06.18-adf-input.png)
+    ![ALT](../images/module06/06.18-adf-input.png)
 
 9. Preview the sample data by clicking **Preview data**, and then click **Next**.
 
-   ![ALT](../images/module06/06.19-adf-preview.png)
+    ![ALT](../images/module06/06.19-adf-preview.png)
 
 10. Change the **Target type** to `Azure Data Lake Storage Gen2`, set the **Connection** to the existing connection (e.g. `AzureDataLakeStorage1`), and then click **Browse**.
 
@@ -143,27 +143,27 @@ This module steps through what is required for connecting an Azure Data Factory 
 
 1. Open the **Microsoft Purview Governance Portal**, from the **Data catalog** screen click **Browse**.
 
-   ![ALT](../images/module06/06.29-purview-browse.png)
+    ![ALT](../images/module06/06.29-purview-browse.png)
 
 2. Switch to the **By source type** tab and then select **Azure Data Factory**.
 
-   ![ALT](../images/module06/06.30-browse-adf.png)
+    ![ALT](../images/module06/06.30-browse-adf.png)
 
 3. Select the **Azure Data Factory account instance** (e.g. `pvlab-{randomId}-adf`).
 
-   ![ALT](../images/module06/06.31-browse-instance.png)
+    ![ALT](../images/module06/06.31-browse-instance.png)
 
 4. Select the **Copy Pipeline** and click to open the **Copy Activity**.
 
-   ![ALT](../images/module06/06.32-browse-pipeline.png)
+    ![ALT](../images/module06/06.32-browse-pipeline.png)
 
 5. Navigate to the **Lineage** tab.
 
-   ![ALT](../images/module06/06.33-browse-asset.png)
+    ![ALT](../images/module06/06.33-browse-asset.png)
 
 6. You can see the lineage information has been automatically pushed from Azure Data Factory to Purview. On the left are the two sets of files that share a common schema in the source folder, the copy activity sits in the center, and the output file sits on the right.
 
-   ![ALT](../images/module06/06.34-browse-lineage.png)
+    ![ALT](../images/module06/06.34-browse-lineage.png)
 
 <div align="right"><a href="#module-06---lineage">↥ back to top</a></div>
 
@@ -173,18 +173,18 @@ This module steps through what is required for connecting an Azure Data Factory 
 
 1. A Microsoft Purview account can connect to multiple Azure Data Factories?
 
-   A ) True  
-   B ) False
+    A ) True  
+    B ) False
 
 2. An Azure Data Factory can connect to multiple Microsoft Purview accounts?
 
-   A ) True  
-   B ) False
+    A ) True  
+    B ) False  
 
 3. ETL processes are rendered on the lineage graph with what type of edges?
 
-   A ) Squared edges  
-   B ) Rounded edges
+    A ) Squared edges  
+    B ) Rounded edges  
 
 <div align="right"><a href="#module-06---lineage">↥ back to top</a></div>
 
