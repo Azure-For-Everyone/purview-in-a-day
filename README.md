@@ -46,15 +46,14 @@ Let's go!
 3. [Search & Browse](./challenge1/module03.md)
 4. [Glossary](./challenge1/module04.md)
 5. [Classifications](./challenge1/module05.md)
-6. [Lineage](./challenge1/module06.md)
 
 ## :books: Challenge 2
 
+6. [Lineage](./challenge1/module06.md)
 7. [Insights](./challenge2/module07.md)
 8. [Monitor](./challenge2/module08.md)
-9. [REST API](./challenge2/module10.md)
-10. [Data Sharing](./challenge2/module16.md)
-11. [Metamodel](./challenge2/module17.md)
+9. [Data Sharing](./challenge2/module16.md)
+10. [Metamodel](./challenge2/module17.md)
 
 <div align="right"><a href="#microsoft-purview-workshop">↥ back to top</a></div>
 
