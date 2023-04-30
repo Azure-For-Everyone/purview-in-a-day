@@ -10,6 +10,8 @@ Microsoft Purview is a unified data governance service that helps you manage and
 
 ## :books: Preface
 
+To understand the relevance and need of Data Governance, you might need to read below preface, to get better acquainted with the desire and requirements of a business/organisation.
+
 - [Preface: Introduction to Data Governance and Purview](./modules/preface.md)
 
 ## Challenge 1
