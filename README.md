@@ -34,7 +34,7 @@ To complete this workshow you'll need to have access to an Azure subscription, a
 
 ## :books: Challenge 1
 
-Before getting started make sure to setup the [Lab Environment](./modules/module00.md) and [create you Microsoft Purview Account](./modules/module01.md). This is a prerequisite before working on the challenges!
+Before getting started make sure to setup the [Lab Environment](./challenge1/module00.md) and [create you Microsoft Purview Account](./challenge1/module01.md). This is a prerequisite before working on the challenges!
 
 - [Lab Environment](./challenge1/module00.md)
 - [Create a Microsoft Purview Account](./challenge1/module01.md)
