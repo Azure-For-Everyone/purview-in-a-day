@@ -1,4 +1,4 @@
-# Module 02A - Register & Scan (ADLS Gen2)
+# Module 01 - Register & Scan (ADLS Gen2)
 
 [< Previous Module](../challenge1/module01.md) - **[Home](../README.md)** - [Next Module >](../challenge1/module02b.md)
 

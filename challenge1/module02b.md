@@ -1,4 +1,4 @@
-# Module 02B - Register & Scan (Azure SQL DB)
+# Module 02 - Register & Scan (Azure SQL DB)
 
 [< Previous Module](../challenge1/module02a.md) - **[Home](../README.md)** - [Next Module >](../challenge1/module03.md)
 
