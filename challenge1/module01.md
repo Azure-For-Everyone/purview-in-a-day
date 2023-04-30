@@ -1,4 +1,4 @@
-# Module 01 - Create a Microsoft Purview Account
+# Prerequisites - Create a Microsoft Purview Account
 
 [< Previous Module](../challenge1/module00.md) - **[Home](../README.md)** - [Next Module >](../challenge1/module02a.md)
 

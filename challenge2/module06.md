@@ -19,9 +19,9 @@ Microsoft Purview also supports the ability to document custom lineage. Custom l
 ## :thinking: Prerequisites
 
 - An [Azure account](https://azure.microsoft.com/free/) with an active subscription.
-- An Azure Data Lake Storage Gen2 Account (see [module 00](../challenge1/module00.md)).
-- An Azure Data Factory Account (see [module 00](../challenge1/module00.md)).
-- A Microsoft Purview account (see [module 01](../challenge1/module01.md)).
+- [An Azure Data Lake Storage Gen2 Account](../challenge1/module00.md)).
+- [An Azure Data Factory Account](../challenge1/module00.md)).
+- [A Microsoft Purview account](../challenge1/module01.md)).
 
 This module steps through what is required for connecting an Azure Data Factory account with a Microsoft Purview account to track data lineage.
 

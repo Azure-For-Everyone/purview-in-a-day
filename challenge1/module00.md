@@ -1,4 +1,4 @@
-# Module 00 - Lab Environment Setup
+# Prerequisites - Lab Environment Setup
 
 **[Home](../README.md)** - [Next Module >](../challenge1/module01.md)
 
