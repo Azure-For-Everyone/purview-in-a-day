@@ -20,6 +20,8 @@ During the first challenge, you'll setup the lab environment in a Azure subscrip
 
 Once you're all set, we will create a new collection in Microsoft Purview, and connect to two resources `Microsoft SQL Database` and the `Azure Data Lake`. Once connected, we will start scanning our data sources to extract the technical metadata. We're now able to search, and further document our data model.
 
+Next you'll learn how to create a glossary hierarchy, and import an existing term set. We will assign terms to our data sets. To finish we will explore the concept of classifications, and we will learn how to create our own custom scan rule set.
+
 ### Challenge 2
 
 [Cedric] To be completed with a concrete explanation.
