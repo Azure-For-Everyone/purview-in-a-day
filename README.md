@@ -30,7 +30,7 @@ To complete this workshow you'll need to have access to an Azure subscription, a
 
 - An [Azure account](https://azure.microsoft.com/free/) with an active subscription. Note: If you don't have access to an Azure subscription, you may be able to start with a [free account](https://www.azure.com/free).
 - You must have the necessary privileges within your Azure subscription to create resources, perform role assignments, register resource providers (if required), etc.
-- If you have no free account, you can leverage your Azure Pass in your Azure account. [Register Azure Pass](https://azure.microsoft.com/en-us/pricing/offers/azure-pass/).
+- If you have no free account, you can leverage your Azure Pass in your Azure account. Reach out to one of our coaches, and [register Azure Pass here](https://azure.microsoft.com/en-us/pricing/offers/azure-pass/).
 
 ## :books: Challenge 1
 
