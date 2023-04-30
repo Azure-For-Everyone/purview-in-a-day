@@ -51,8 +51,8 @@ Let's go!
 
 ## :books: Challenge 2
 
-6. [Lineage](./challenge1/module06.md)
-7. [Insights](./challenge2/module07.md)
+6. [Lineage](./challenge2/module06.md)
+7. (Optional) [Insights](./challenge2/module07.md)
 8. [Monitor](./challenge2/module08.md)
 9. [Data Sharing](./challenge2/module16.md)
 10. [Metamodel](./challenge2/module17.md)
