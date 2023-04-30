@@ -6,6 +6,14 @@ The Purview In A Day is all about 2 challenges in which you'll be enabled with r
 
 ![Mission statement](./assets/dgf-mission-statement.png)
 
+## What is Microsoft Purview?
+
+Microsoft Purview is a unified data governance service that helps you manage and govern your on-premises, multi-cloud and software-as-a-service (SaaS) data. Easily create a holistic, up-to-date map of your data landscape with automated data discovery, sensitive data classification and end-to-end data lineage. Empower data consumers to find valuable, trustworthy data.
+
+## :books: Preface
+
+- [Preface: Introduction to Data Governance and Purview](./modules/preface.md)
+
 ## Challenge 1
 
 During the first challenge, you'll setup the lab environment in a Azure subscription (see Azure Pass below). We will create the required resources in a `resource group` using a predefined script, and activate the Microsoft Purview service.
@@ -15,14 +23,6 @@ Once you're all set, we will create a new collection in Microsoft Purview, and c
 ## Challenge 2
 
 [Cedric] To be completed with a concrete explanation.
-
-## What is Microsoft Purview?
-
-Microsoft Purview is a unified data governance service that helps you manage and govern your on-premises, multi-cloud and software-as-a-service (SaaS) data. Easily create a holistic, up-to-date map of your data landscape with automated data discovery, sensitive data classification and end-to-end data lineage. Empower data consumers to find valuable, trustworthy data.
-
-## :books: Preface
-
-- [Preface: Introduction to Data Governance and Purview](./modules/preface.md)
 
 ## :thinking: Prerequisites
 
