@@ -35,7 +35,7 @@ G(Contoso<br>Organization) ---> |1:N has| D(Sales<br>Department)
 
 ## :thinking: Prerequisites
 
-- [A Microsoft Purview account](../challenge1/module01.md)).
+- [A Microsoft Purview account](../challenge1/module01.md).
 
 ## :dart: Objectives
 

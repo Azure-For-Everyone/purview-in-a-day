@@ -13,7 +13,7 @@ With Microsoft Purview Data Sharing:
 
 ## :thinking: Prerequisites
 
-- [A Microsoft Purview account](../challenge1/module01.md)).
+- [A Microsoft Purview account](../challenge1/module01.md).
 
 ## :dart: Objectives
 

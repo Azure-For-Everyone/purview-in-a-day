@@ -11,7 +11,7 @@ In this module, you'll learn to edit technical metadata by adding definitions an
 ## :thinking: Prerequisites
 
 - An [Azure account](https://azure.microsoft.com/free/) with an active subscription.
-- [A Microsoft Purview account](../challenge1/module01.md)).
+- [A Microsoft Purview account](../challenge1/module01.md).
 - A Microsoft Purview catalog with some assets (see [module 02](../challenge1/module02a.md)).
 
 ## :dart: Objectives

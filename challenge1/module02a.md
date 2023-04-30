@@ -11,8 +11,8 @@ In this module, you'll walk through how to register and scan data sources. You'l
 ## :thinking: Prerequisites
 
 - An [Azure account](https://azure.microsoft.com/free/) with an active subscription.
-- [An Azure Data Lake Storage Gen2 account](../challenge1/module00.md)).
-- [A Microsoft Purview account](../challenge1/module01.md)).
+- [An Azure Data Lake Storage Gen2 account](../challenge1/module00.md).
+- [A Microsoft Purview account](../challenge1/module01.md).
 
 ## :hammer: Tools
 
