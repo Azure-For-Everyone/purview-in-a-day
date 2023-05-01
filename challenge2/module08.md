@@ -1,6 +1,6 @@
 # Module 08 - Monitor
 
-[< Previous Module](../challenge2/module07.md) - **[Home](../README.md)** - [Next Module >](../challenge2/module16.md)
+[< Previous Module](../challenge2/module07.md) - **[Home](../README.md)** - [Next Module >](../challenge2/module17.md)
 
 ## :loudspeaker: Introduction
 
@@ -162,4 +162,4 @@ Metrics can be accessed from the Azure Portal for a Microsoft Purview account in
 
 This module provided an overview of how to visualize Microsoft Purview metrics within the Azure Portal and how to capture raw telemetry to an Azure Storage account.
 
-[Continue >](../challenge2/module16.md)
+[Continue >](../challenge2/module17.md)

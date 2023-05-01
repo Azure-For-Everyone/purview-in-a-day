@@ -47,15 +47,13 @@ Let's go!
 2. [Register & Scan: Azure SQL Database](./challenge1/module02b.md)
 3. [Search & Browse](./challenge1/module03.md)
 4. [Glossary](./challenge1/module04.md)
-5. [Classifications](./challenge1/module05.md)
 
 ## :books: Challenge 2
 
+5. [Classifications](./challenge2/module05.md)
 6. [Lineage](./challenge2/module06.md)
-7. (Optional) [Insights](./challenge2/module07.md)
-8. [Monitor](./challenge2/module08.md)
-9. [Data Sharing](./challenge2/module16.md)
-10. [Metamodel](./challenge2/module17.md)
+7. [Monitor](./challenge2/module08.md)
+8. [Metamodel](./challenge2/module17.md)
 
 <div align="right"><a href="#microsoft-purview-workshop">↥ back to top</a></div>
 

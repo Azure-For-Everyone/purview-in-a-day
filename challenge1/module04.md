@@ -1,6 +1,6 @@
 # Module 04 - Glossary
 
-[< Previous Module](../challenge1/module03.md) - **[Home](../README.md)** - [Next Module >](../challenge1/module05.md)
+[< Previous Module](../challenge1/module03.md) - **[Home](../README.md)** - [Next Module >](../challenge2/module05.md)
 
 ## :loudspeaker: Introduction
 
@@ -310,4 +310,4 @@ In this lab you learn how to create terms using a system and custom term templat
 
 This module provided an overview of how to create, export, and import terms into the Microsoft Purview glossary.
 
-[Continue >](../challenge1/module05.md)
+[Continue >](../challenge2/module05.md)
