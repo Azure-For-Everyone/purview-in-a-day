@@ -20,11 +20,13 @@ During the first challenge, you'll setup the lab environment in a Azure subscrip
 
 Once you're all set, we will create a new collection in Microsoft Purview, and connect to two resources `Microsoft SQL Database` and the `Azure Data Lake`. Once connected, we will start scanning our data sources to extract the technical metadata. We're now able to search, and further document our data model.
 
-Next you'll learn how to create a `glossary hierarchy`, and import an existing term set. We will assign terms to our data sets. To finish we will explore the concept of `classifications`, and we will learn how to create our own custom `scan rule set`.
+In the end you'll learn how to create a `glossary hierarchy`, and import an existing term set. We will assign terms to our data sets.
 
 ### Challenge 2
 
-[Cedric] To be completed with a concrete explanation.
+We will start to explore the concept of `classifications`, and we will learn how to create our own custom `scan rule set`. We will automatically classify our `metadata`. Following we wil start to explore the concept of `lineage`, and learn how to use tools like `Data factory` to track lineage.
+
+We will explore the concept of `monitoring` and reporting to understand how purview is scanning our data sources. To finish we will learn how to build a `metamodel`, to create better insights into our data landscape.
 
 ## :thinking: Prerequisites
 
