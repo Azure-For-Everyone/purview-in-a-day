@@ -43,7 +43,7 @@ Before getting started make sure to setup the [Lab Environment](./challenge1/mod
 - [Lab Environment](./challenge1/module00.md)
 - [Create a Microsoft Purview Account](./challenge1/module01.md)
 
-Let's go!
+Time for a coffee :coffee:? Let's go!
 
 1. [Register & Scan: Azure Data Lake Storage Gen2 ](./challenge1/module02a.md)
 2. [Register & Scan: Azure SQL Database](./challenge1/module02b.md)
