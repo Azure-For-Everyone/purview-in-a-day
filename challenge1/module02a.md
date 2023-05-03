@@ -16,6 +16,8 @@ In this module, you'll walk through how to register and scan data sources. You'l
 
 ## :hammer: Tools
 
+You can leverage the Azure Storage Explorer, or use the Azure Portal if you are not allowed to installed third-party tools.
+
 - [Azure Storage Explorer](https://azure.microsoft.com/features/storage-explorer/) (Download and Install)
 
 ## :dart: Objectives
@@ -93,7 +95,9 @@ Before proceeding with the following steps, you will need to:
 
    ![Extract](../images/module02/02.08-explorer-extract.png)
 
-4. Open Azure Storage Explorer, click on the Toggle Explorer icon, expand the Azure Subscription to find your Azure Storage Account. Right-click on Blob Containers and select **Create Blob Container**. Name the container `raw`.
+4. Open Azure Storage Explorer, click on the Toggle Explorer icon, expand the Azure Subscription to find your Azure Storage Account. Right-click on Blob Containers and select **Create Blob Container**. Name the container `raw`. 
+
+!Important: If you are using the Azure Portal, you can't upload a hiearchy of directories. Therefore you'll need to create the sub directories `2020` and `2021` first, and uploaded the files in the respective folder.
 
    ![Create Blob Container](../images/module02/02.12-explorer-container.png)
 
