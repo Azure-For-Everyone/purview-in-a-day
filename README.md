@@ -32,7 +32,7 @@ We will explore the concept of `monitoring` and reporting to understand how purv
 
 To complete this workshow you'll need to have access to an Azure subscription, and be able to install a custom template.
 
-- An [Azure account](https://azure.microsoft.com/free/) with an active subscription. Note: If you don't have access to an Azure subscription, you may be able to start with a [free account](https://www.azure.com/free).
+- An [Azure account](https://azure.microsoft.com/free/), we'll give you a dedicated subscription (Azure Pass) for this workshop.
 - You must have the necessary privileges within your Azure subscription to create resources, perform role assignments, register resource providers (if required), etc.
 - If you have no free account, you can leverage your Azure Pass in your Azure account. Reach out to one of our coaches, and [register Azure Pass here](https://azure.microsoft.com/en-us/pricing/offers/azure-pass/).
 
